@@ -304,5 +304,6 @@ int main(void) {
     scanf("%s",s);
     p = createPDA(s);
     simulate(p);
+    print(p);
     return 0;
 }
